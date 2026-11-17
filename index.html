@@ -121,8 +121,10 @@
 
                 <div class="mt-3">
                     <h3>Música para estudiar</h3>
-                    <audio controls>
+                    <audio id="musicaEstudio" controls preload="metadata">
+                        <source src="videos/musica-estudio.mp3" type="audio/mpeg">
                         <source src="videos/videoplayback.mp4" type="audio/mp4">
+                        Tu navegador no soporta el elemento de audio.
                     </audio>
                 </div>
             </section>
@@ -134,6 +136,12 @@
             <p>© 2026 MateFácil · Aprendizaje de geometría para jóvenes</p>
         </div>
     </footer>
+
+    <script>
+        // Alerta al iniciar la página
+        alert("ya se agregro una alerta !");
+    </script>
+
 </body>
 
 </html>
